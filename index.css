@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: wonder;
+  src: url(wonder.otf);
+}
+
+html, body {
+    margin: 0;
+    text-align: center;
+    font-family: inter;
+    color: #2b283a;
+}
+
+header {
+    background-color: #0D0E24;
+    padding: 20px 15px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C2A651;
+    font-family: wonder;
+    gap: 10px;
+}
+
+.logo {
+    width: 120px;
+    background: transparent;
+}
+
+img {
+    width: 100%;
+    max-width: 250px
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* ------------------- */
+
+main {
+    padding: 35px 0px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.genre-selection {
+    max-width: 210px;
+    margin: 20px auto 0px auto;
+    border: 1px solid #BEBEBE;
+    border-radius: 5px;
+}
+
+.genres-radios {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #BEBEBE;
+    padding: 7px;
+}
+
+label {
+    font-size: 14px;
+}
+
+.highlight {
+    color: #1F1A43;
+    background-color: #CABA9E;
+    font-weight: bold;
+}
+
+.highlight, .check-year {
+    accent-color: #A08227;
+}
+
+.check-year-container {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 20px;
+}
+
+.get-movie-btn {
+    background-color: #0D0E24;
+    color: #c9ac55;
+    padding: 15px 19px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.movie-modal {
+    display: none;
+    max-width: 350px;
+    height: 490px;
+    border: 2px solid #A0A0A0;
+    background-color: #C8C8C8;
+    position: absolute;
+    top: 85px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding-right: 5px;
+    color: 	#303030;
+}
+
+.movie-modal-close-btn {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    border-radius: 50%;
+    border: 2px solid ;
+    color: #696969;
+    background-color: transparent;
+}
+
+.movie-modal-inner {
+    margin-top: 50px
+}
+
+.movie-selected-title {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+}
